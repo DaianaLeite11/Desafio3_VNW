@@ -46,11 +46,12 @@ function NavBar() {
                     <button
                         onClick={() => {
                             navigate("/reembolsos");
+                        }}
                     >
                         <img src={Pesquisa} alt="Imagem Pesquisa" />
 
                     </button>
-                        }}
+                      
 
                     <button
                         onClick={() => {
@@ -78,3 +79,5 @@ function NavBar() {
     )
 
 }
+
+export default NavBar;
